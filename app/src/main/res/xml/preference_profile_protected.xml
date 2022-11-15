@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/setting_title_profiles_dataUsage">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/icon_image"
+            android:key="profileProtected_images"
+            android:summary="@string/setting_title_images" />
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/icon_savedata"
+            android:key="profileProtected_saveData"
+            android:summary="@string/setting_title_save_data" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_title_profiles_privacy">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/icon_location"
+            android:key="profileProtected_location"
+            android:summary="@string/setting_title_location" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/icon_camera"
+            android:key="profileProtected_camera"
+            android:summary="@string/setting_title_camera" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/icon_microphone"
+            android:key="profileProtected_microphone"
+            android:summary="@string/setting_title_microphone" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/icon_history"
+            android:key="profileProtected_saveHistory"
+            android:summary="@string/setting_title_history" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/icon_cookie"
+            android:key="profileProtected_cookies"
+            android:summary="@string/setting_title_cookie" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/icon_dom"
+            android:key="profileProtected_dom"
+            android:summary="@string/setting_title_dom" />
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/icon_java"
+            android:key="profileProtected_javascript"
+            android:summary="@string/setting_title_javascript" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/icon_popup"
+            android:key="profileProtected_javascriptPopUp"
+            android:summary="@string/setting_title_javascript_popUp" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/setting_title_profiles_Security">
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/icon_adblock"
+            android:key="profileProtected_adBlock"
+            android:summary="@string/setting_title_adblock" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/icon_fingerprint"
+            android:key="profileProtected_fingerPrintProtection"
+            android:summary="@string/setting_title_fingerPrint" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

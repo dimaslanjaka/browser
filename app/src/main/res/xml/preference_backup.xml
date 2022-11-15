@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:summary="@string/data_summary" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="database"
+        android:summary="@string/title_appData" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="settings"
+        android:summary="@string/setting_label" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="bookmark"
+        android:summary="@string/album_title_bookmarks" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="java"
+        android:summary="@string/setting_title_profiles_trustedList" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="dom"
+        android:summary="@string/setting_title_profiles_standardList" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cookie"
+        android:summary="@string/setting_title_profiles_protectedList" />
+
+</PreferenceScreen>

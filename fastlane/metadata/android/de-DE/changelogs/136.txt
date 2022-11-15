@@ -1,0 +1,5 @@
+### v 9.5
+
+- fix: can't open URL from outside, if it was closed before
+- fix: Active button colors on OLED theme #1006
+- new: hebrew translation

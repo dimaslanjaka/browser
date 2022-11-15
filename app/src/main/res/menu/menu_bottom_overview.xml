@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/page_0"
+        android:enabled="true"
+        android:icon="@drawable/icon_tab"
+        android:title="@string/album_title_tab" />
+
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/icon_web"
+        android:title="@string/album_title_home" />
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@drawable/icon_bookmark"
+        android:title="@string/album_title_bookmarks" />
+
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
+        android:icon="@drawable/icon_history"
+        android:title="@string/album_title_history" />
+    <item
+        android:id="@+id/page_4"
+        android:enabled="true"
+        android:icon="@drawable/icon_overflow"
+        android:title="Menu" />
+
+</menu>
